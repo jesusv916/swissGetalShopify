@@ -112,6 +112,7 @@
         "template--16209095950518__0d553b98-2fb5-421f-aa95-29ba16dba8a8-button-1"
       ],
       "settings": {
+        "image_desktop": "shopify:\/\/shop_images\/BANNER02-edit_1.png",
         "image_align_desktop": "center",
         "image_align_mobile": "center",
         "tint_color": "#000000",
@@ -122,7 +123,7 @@
         "text_box_style": "none",
         "text_bg_color": "#000000",
         "text_bg_opacity": 50,
-        "text_color": "#ffffff",
+        "text_color": "#1a1a1e",
         "text_position": "left center",
         "text_below_mobile": false
       }
