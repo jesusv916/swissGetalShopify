@@ -105,7 +105,7 @@
           "enable_logo_shrink": true,
           "menu_linklist": "main-menu",
           "menu_under_text": "",
-          "enable_inline_links": false,
+          "enable_inline_links": true,
           "menu_align_logo_left": false,
           "search_menu_title": "",
           "search_menu_linklist": "",
