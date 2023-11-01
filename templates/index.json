@@ -6,42 +6,26 @@
         "slide-0": {
           "type": "image",
           "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/BANNER01.webp",
             "image_align_desktop": "center",
             "image_align_mobile": "center",
-            "text_position": "center center",
-            "heading": "Slideshow",
+            "text_position": "left center",
+            "heading": "Inspired by Nature",
             "heading_size": "h1",
-            "text": "<p>Pair text with an image to tell a story<\/p>",
+            "text": "<p>Escape into the world of clean beauty with the best skincare products from Switzerland.<\/p>",
             "enlarge_text": false,
-            "button_1_text": "See more",
+            "button_1_text": "",
             "button_1_url": "",
             "button_2_text": "Shop now",
-            "button_2_url": ""
-          }
-        },
-        "slide-1": {
-          "type": "image",
-          "settings": {
-            "image_align_desktop": "center",
-            "image_align_mobile": "center",
-            "text_position": "center center",
-            "heading": "Slideshow",
-            "heading_size": "h1",
-            "text": "<p>Pair text with an image to tell a story<\/p>",
-            "enlarge_text": false,
-            "button_1_text": "See more",
-            "button_1_url": "",
-            "button_2_text": "",
             "button_2_url": ""
           }
         }
       },
       "block_order": [
-        "slide-0",
-        "slide-1"
+        "slide-0"
       ],
       "settings": {
-        "size": "full_fixed",
+        "size": "full-viewport",
         "height_desktop": 700,
         "height_mobile": 460,
         "enable_split": false,
