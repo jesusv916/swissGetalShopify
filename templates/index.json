@@ -6,42 +6,26 @@
         "slide-0": {
           "type": "image",
           "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/BANNER01.webp",
             "image_align_desktop": "center",
             "image_align_mobile": "center",
-            "text_position": "center center",
-            "heading": "Slideshow",
+            "text_position": "left center",
+            "heading": "Inspired by Nature",
             "heading_size": "h1",
-            "text": "<p>Pair text with an image to tell a story<\/p>",
+            "text": "<p>Escape into the world of clean beauty with the best skincare products from Switzerland.<\/p>",
             "enlarge_text": false,
-            "button_1_text": "See more",
+            "button_1_text": "",
             "button_1_url": "",
             "button_2_text": "Shop now",
-            "button_2_url": ""
-          }
-        },
-        "slide-1": {
-          "type": "image",
-          "settings": {
-            "image_align_desktop": "center",
-            "image_align_mobile": "center",
-            "text_position": "center center",
-            "heading": "Slideshow",
-            "heading_size": "h1",
-            "text": "<p>Pair text with an image to tell a story<\/p>",
-            "enlarge_text": false,
-            "button_1_text": "See more",
-            "button_1_url": "",
-            "button_2_text": "",
             "button_2_url": ""
           }
         }
       },
       "block_order": [
-        "slide-0",
-        "slide-1"
+        "slide-0"
       ],
       "settings": {
-        "size": "full_fixed",
+        "size": "full-viewport",
         "height_desktop": 700,
         "height_mobile": 460,
         "enable_split": false,
@@ -64,22 +48,22 @@
         "block-0": {
           "type": "heading",
           "settings": {
-            "heading": "Rich text"
+            "heading": "What is your skin type?"
           }
         },
         "block-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Use this text to share information about your store with your customers. Describe product, share announcements, or welcome customers to your store.<\/p>",
-            "text_size": 100
+            "text": "<p>Answer a few questions to analyse your skin type and find out which skin care products suit you best.<\/p>",
+            "text_size": 120
           }
         },
         "block-2": {
           "type": "button",
           "settings": {
-            "button_label": "Some link",
+            "button_label": "Start Quiz",
             "button_link": "shopify:\/\/pages\/contact-us",
-            "button_style": "feature-link"
+            "button_style": "button"
           }
         }
       },
@@ -90,10 +74,58 @@
       ],
       "settings": {
         "text_alignment": "center",
-        "color_scheme": "scheme-1",
-        "color_bg": "",
+        "color_scheme": "none",
+        "color_bg": "rgba(0,0,0,0)",
         "color_heading": "",
         "color_text": ""
+      }
+    },
+    "0d553b98-2fb5-421f-aa95-29ba16dba8a8": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16209095950518__0d553b98-2fb5-421f-aa95-29ba16dba8a8-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Backed by science",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "template--16209095950518__0d553b98-2fb5-421f-aa95-29ba16dba8a8-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our innovative skincare products are crafted with clean herbal ingredients and scientifically proven formulas that illuminate your skin.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "template--16209095950518__0d553b98-2fb5-421f-aa95-29ba16dba8a8-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Our Laboratory",
+            "button_link": "shopify:\/\/pages\/contact"
+          }
+        }
+      },
+      "block_order": [
+        "template--16209095950518__0d553b98-2fb5-421f-aa95-29ba16dba8a8-heading-1",
+        "template--16209095950518__0d553b98-2fb5-421f-aa95-29ba16dba8a8-text-1",
+        "template--16209095950518__0d553b98-2fb5-421f-aa95-29ba16dba8a8-button-1"
+      ],
+      "settings": {
+        "image_desktop": "shopify:\/\/shop_images\/BANNER02-edit_1.webp",
+        "image_align_desktop": "center",
+        "image_align_mobile": "center",
+        "tint_color": "#000000",
+        "tint_opacity": 20,
+        "size": "full-fixed",
+        "height_desktop": 680,
+        "height_mobile": 400,
+        "text_box_style": "none",
+        "text_bg_color": "#000000",
+        "text_bg_opacity": 50,
+        "text_color": "#1a1a1e",
+        "text_position": "left center",
+        "text_below_mobile": false
       }
     },
     "featured-collection": {
@@ -294,6 +326,7 @@
   "order": [
     "slideshow",
     "rich-text",
+    "0d553b98-2fb5-421f-aa95-29ba16dba8a8",
     "featured-collection",
     "image-gallery",
     "slideshow-with-text",
