@@ -181,7 +181,7 @@
             "tint_color": "#000000",
             "tint_opacity": 20,
             "size": "third",
-            "link": "",
+            "link": "shopify:\/\/products\/producto-demo",
             "title": "Image text",
             "subheading": "",
             "cta_text": "See more",
@@ -209,6 +209,26 @@
       ],
       "settings": {
         "skip_container": true
+      }
+    },
+    "608471ae-4714-459e-b5f5-5d06f5f68624": {
+      "type": "image-with-text",
+      "settings": {
+        "skip_container": true,
+        "image": "shopify:\/\/shop_images\/drops_1.png",
+        "layout": "right",
+        "heading": "Eye Elixir",
+        "text": "<p>Text about this line. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<\/p>",
+        "button_text": "Shop Eye Elixir",
+        "button_link": "",
+        "button_style": "button button--alt",
+        "text_alignment": "left",
+        "text_center_mobile": false,
+        "bg_style": "content",
+        "color_scheme": "custom",
+        "color_bg": "#e6f4f1",
+        "color_heading": "#152242",
+        "color_text": "#1a1a1e"
       }
     },
     "slideshow-with-text": {
@@ -331,6 +351,7 @@
     "featured-collection",
     "9e081925-283b-4db7-b23d-f2dbe649d65a",
     "image-gallery",
+    "608471ae-4714-459e-b5f5-5d06f5f68624",
     "slideshow-with-text",
     "testimonials",
     "video",
