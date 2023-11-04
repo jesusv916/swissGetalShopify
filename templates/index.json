@@ -238,6 +238,35 @@
         "collections_per_row_int": 4
       }
     },
+    "32eeb96e-ed6a-4b17-90ea-195e7518b8f6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16209095950518__32eeb96e-ed6a-4b17-90ea-195e7518b8f6-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": ""
+          }
+        },
+        "template--16209095950518__32eeb96e-ed6a-4b17-90ea-195e7518b8f6-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.<\/p>",
+            "text_size": 100
+          }
+        }
+      },
+      "block_order": [
+        "template--16209095950518__32eeb96e-ed6a-4b17-90ea-195e7518b8f6-heading-1",
+        "template--16209095950518__32eeb96e-ed6a-4b17-90ea-195e7518b8f6-text-1"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "color_scheme": "scheme-1",
+        "color_bg": "",
+        "color_heading": "",
+        "color_text": ""
+      }
+    },
     "slideshow-with-text": {
       "type": "slideshow-with-text",
       "blocks": {
@@ -360,6 +389,7 @@
     "image-gallery",
     "608471ae-4714-459e-b5f5-5d06f5f68624",
     "51d03e72-ce45-4623-b511-a19d23301d48",
+    "32eeb96e-ed6a-4b17-90ea-195e7518b8f6",
     "slideshow-with-text",
     "testimonials",
     "video",
