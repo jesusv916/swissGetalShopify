@@ -101,6 +101,7 @@
       "header": {
         "type": "header",
         "settings": {
+          "logo": "shopify:\/\/shop_images\/Image20231104094146.png",
           "logo_width": 150,
           "enable_header_overlap": true,
           "enable_sticky": true,
