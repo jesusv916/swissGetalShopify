@@ -90,11 +90,11 @@
       "announcement": {
         "type": "announcement",
         "settings": {
-          "show_announcement": false,
+          "show_announcement": true,
           "announcement_home_only": false,
-          "announcement_bar_text": "",
+          "announcement_bar_text": "Free Shipping on all orders over $100",
           "announcement_bar_link": "",
-          "announcement_bar_bg_color": "#ffe2d1",
+          "announcement_bar_bg_color": "rgba(0,0,0,0)",
           "announcement_bar_bg_text": "#132625"
         }
       },
