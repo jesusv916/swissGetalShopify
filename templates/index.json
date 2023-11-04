@@ -285,6 +285,7 @@
         "slide-0",
         "slide-1"
       ],
+      "disabled": true,
       "settings": {
         "layout": "left",
         "heading": "Slideshow with text",
@@ -331,6 +332,7 @@
         "testimonial-0",
         "testimonial-1"
       ],
+      "disabled": true,
       "settings": {
         "title": "Testimonials",
         "autoplay": false,
@@ -359,6 +361,7 @@
         "block-0",
         "block-1"
       ],
+      "disabled": true,
       "settings": {
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "skip_container": false,
@@ -374,9 +377,74 @@
     },
     "featured-blog": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "",
         "blog": ""
+      }
+    },
+    "45ab7217-b3c6-4300-b79c-b706485031ec": {
+      "type": "instafeed",
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
+    },
+    "b200651b-0938-4faf-8746-4622b138c3e6": {
+      "type": "logo-list",
+      "blocks": {
+        "template--16209095950518__b200651b-0938-4faf-8746-4622b138c3e6-logo-1": {
+          "type": "logo",
+          "settings": {
+            "title": "Swiss Made",
+            "icon": "svg-package",
+            "image": "shopify:\/\/shop_images\/Swiss.png",
+            "url": ""
+          }
+        },
+        "c716a333-4efd-464a-a271-3b64ba30a479": {
+          "type": "logo",
+          "settings": {
+            "title": "High Quality",
+            "icon": "svg-package",
+            "image": "shopify:\/\/shop_images\/Quality.png",
+            "url": ""
+          }
+        },
+        "3ea1ff97-0c9e-4ed0-9753-c2eacdd121a9": {
+          "type": "logo",
+          "settings": {
+            "title": "Proven Results",
+            "icon": "svg-package",
+            "image": "shopify:\/\/shop_images\/Proven.png",
+            "url": ""
+          }
+        },
+        "5981eb55-b4ac-4fce-9649-9af3cc7ed8ae": {
+          "type": "logo",
+          "settings": {
+            "title": "Backed By Science",
+            "icon": "svg-package",
+            "image": "shopify:\/\/shop_images\/Science.png",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16209095950518__b200651b-0938-4faf-8746-4622b138c3e6-logo-1",
+        "c716a333-4efd-464a-a271-3b64ba30a479",
+        "3ea1ff97-0c9e-4ed0-9753-c2eacdd121a9",
+        "5981eb55-b4ac-4fce-9649-9af3cc7ed8ae"
+      ],
+      "settings": {
+        "heading": "",
+        "icon_size": 50,
+        "enlarge_text": false,
+        "color_scheme": "scheme-1",
+        "color_bg": "",
+        "color_heading": "",
+        "color_text": ""
       }
     }
   },
@@ -393,6 +461,8 @@
     "slideshow-with-text",
     "testimonials",
     "video",
-    "featured-blog"
+    "featured-blog",
+    "45ab7217-b3c6-4300-b79c-b706485031ec",
+    "b200651b-0938-4faf-8746-4622b138c3e6"
   ]
 }
