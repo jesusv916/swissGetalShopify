@@ -231,6 +231,13 @@
         "color_text": "#1a1a1e"
       }
     },
+    "51d03e72-ce45-4623-b511-a19d23301d48": {
+      "type": "collection-list",
+      "settings": {
+        "title": "Intensive Products",
+        "collections_per_row_int": 4
+      }
+    },
     "slideshow-with-text": {
       "type": "slideshow-with-text",
       "blocks": {
@@ -352,6 +359,7 @@
     "9e081925-283b-4db7-b23d-f2dbe649d65a",
     "image-gallery",
     "608471ae-4714-459e-b5f5-5d06f5f68624",
+    "51d03e72-ce45-4623-b511-a19d23301d48",
     "slideshow-with-text",
     "testimonials",
     "video",
