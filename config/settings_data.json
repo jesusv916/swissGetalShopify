@@ -67,6 +67,7 @@
     "live_search_search_meta": false,
     "enable_transition_in": true,
     "enable_overlay_transition": true,
+    "show_currency_code": false,
     "checkout_header_image": "",
     "checkout_logo_position": "center",
     "checkout_logo_size": "small",
