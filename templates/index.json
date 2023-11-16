@@ -132,9 +132,9 @@
       "type": "featured-collection",
       "settings": {
         "title": "Beauty Must Have",
-        "collection": "",
+        "collection": "beaty-must-have",
         "grid_show_vendor": false,
-        "products_per_row_int": 3,
+        "products_per_row_int": 4,
         "product_rows_int": 1,
         "show_view_all": false
       }
