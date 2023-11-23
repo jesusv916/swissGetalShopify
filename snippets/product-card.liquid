@@ -43,7 +43,21 @@
         items_per_row: items_per_row,
         class: 'prod-image__main'
       %}
-
+      <ul class="invisible-list">
+        <li>
+          Nourish and Revitalize Your Skin
+        </li>
+        <li>
+          Intense Hydration
+        </li>
+        <li>
+          Skin elasticity
+          Significantly improved
+        </li>
+        <li>
+          <a href="">Quick Add</a>
+        </li>
+      </ul>
       {%- if settings.product_hover_image and product.media.size > 1 -%}
         {% render 'card-image',
           img: product.media[1].preview_image,
