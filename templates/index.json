@@ -165,39 +165,42 @@
         "image-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/SGF-22_1.png",
             "tint_color": "#000000",
             "tint_opacity": 30,
             "size": "third",
-            "link": "",
-            "title": "Image text",
+            "link": "shopify:\/\/collections\/beaty-must-have",
+            "title": "Serums",
             "subheading": "",
-            "cta_text": "See more",
+            "cta_text": "Shop Serums",
             "text_color": "#ffffff"
           }
         },
         "image-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/SGF-77_1.png",
             "tint_color": "#000000",
             "tint_opacity": 20,
             "size": "third",
             "link": "shopify:\/\/products\/producto-demo",
-            "title": "Image text",
+            "title": "Cleanser",
             "subheading": "",
-            "cta_text": "See more",
+            "cta_text": "Shop Cleanser",
             "text_color": "#ffffff"
           }
         },
         "image-2": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/SGF-11_1.png",
             "tint_color": "#000000",
             "tint_opacity": 10,
             "size": "third",
-            "link": "",
-            "title": "Image text",
+            "link": "shopify:\/\/collections\/beaty-must-have",
+            "title": "Toners",
             "subheading": "",
-            "cta_text": "See more",
+            "cta_text": "Shop Toners",
             "text_color": "#ffffff"
           }
         }
@@ -208,7 +211,7 @@
         "image-2"
       ],
       "settings": {
-        "skip_container": true
+        "skip_container": false
       }
     },
     "608471ae-4714-459e-b5f5-5d06f5f68624": {
