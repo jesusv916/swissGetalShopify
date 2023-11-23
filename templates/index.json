@@ -211,7 +211,7 @@
         "image-2"
       ],
       "settings": {
-        "skip_container": false
+        "skip_container": true
       }
     },
     "608471ae-4714-459e-b5f5-5d06f5f68624": {
