@@ -236,6 +236,17 @@
     },
     "51d03e72-ce45-4623-b511-a19d23301d48": {
       "type": "collection-list",
+      "blocks": {
+        "e112fbe8-5474-429d-bed0-0c3897640999": {
+          "type": "collection",
+          "settings": {
+            "collection": "beaty-must-have"
+          }
+        }
+      },
+      "block_order": [
+        "e112fbe8-5474-429d-bed0-0c3897640999"
+      ],
       "settings": {
         "title": "Intensive Products",
         "collections_per_row_int": 4
