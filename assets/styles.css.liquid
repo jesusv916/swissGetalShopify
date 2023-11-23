@@ -6804,12 +6804,13 @@ h3.card__title {
 @media (min-width: 768px) {
   .banner {
     margin-bottom: {{ section_spacing }}px;
-    /* padding-top: {{ hero_vertical_padding }}px; */
+    padding-top: {{ hero_vertical_padding }}px;
   }
 
   .banner.banner--bg {
     min-height: calc({{ hero_height_mobile }}px + {{ hero_height_desktop | minus: hero_height_mobile }} * (100vw - 480px) / 1020);
     padding-bottom: 60px;
+    padding-top: -20px;
   }
   .active-banner .banner.banner--bg {
     padding-bottom: calc({{ hero_overlap }}px + 60px);
