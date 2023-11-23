@@ -165,39 +165,42 @@
         "image-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/SGF-22_1.png",
             "tint_color": "#000000",
             "tint_opacity": 30,
             "size": "third",
-            "link": "",
-            "title": "Image text",
+            "link": "shopify:\/\/collections\/beaty-must-have",
+            "title": "Serums",
             "subheading": "",
-            "cta_text": "See more",
+            "cta_text": "Shop Serums",
             "text_color": "#ffffff"
           }
         },
         "image-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/SGF-77_1.png",
             "tint_color": "#000000",
             "tint_opacity": 20,
             "size": "third",
             "link": "shopify:\/\/products\/producto-demo",
-            "title": "Image text",
+            "title": "Cleanser",
             "subheading": "",
-            "cta_text": "See more",
+            "cta_text": "Shop Cleanser",
             "text_color": "#ffffff"
           }
         },
         "image-2": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/SGF-11_1.png",
             "tint_color": "#000000",
             "tint_opacity": 10,
             "size": "third",
-            "link": "",
-            "title": "Image text",
+            "link": "shopify:\/\/collections\/beaty-must-have",
+            "title": "Toners",
             "subheading": "",
-            "cta_text": "See more",
+            "cta_text": "Shop Toners",
             "text_color": "#ffffff"
           }
         }
@@ -208,7 +211,7 @@
         "image-2"
       ],
       "settings": {
-        "skip_container": true
+        "skip_container": false
       }
     },
     "608471ae-4714-459e-b5f5-5d06f5f68624": {
@@ -229,42 +232,6 @@
         "color_bg": "#e6f4f1",
         "color_heading": "#152242",
         "color_text": "#1a1a1e"
-      }
-    },
-    "51d03e72-ce45-4623-b511-a19d23301d48": {
-      "type": "collection-list",
-      "settings": {
-        "title": "Intensive Products",
-        "collections_per_row_int": 4
-      }
-    },
-    "32eeb96e-ed6a-4b17-90ea-195e7518b8f6": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16209095950518__32eeb96e-ed6a-4b17-90ea-195e7518b8f6-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": ""
-          }
-        },
-        "template--16209095950518__32eeb96e-ed6a-4b17-90ea-195e7518b8f6-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.<\/p>",
-            "text_size": 100
-          }
-        }
-      },
-      "block_order": [
-        "template--16209095950518__32eeb96e-ed6a-4b17-90ea-195e7518b8f6-heading-1",
-        "template--16209095950518__32eeb96e-ed6a-4b17-90ea-195e7518b8f6-text-1"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "color_scheme": "scheme-1",
-        "color_bg": "",
-        "color_heading": "",
-        "color_text": ""
       }
     },
     "slideshow-with-text": {
@@ -306,81 +273,44 @@
         "slide_show_mobile_arrows": true
       }
     },
-    "testimonials": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial-0": {
-          "type": "testimonial",
-          "settings": {
-            "star_rating": 5,
-            "testimonial": "Add customer reviews or press releases to showcase your store's happy customers.",
-            "link": "",
-            "author_name": "Author's name"
-          }
-        },
-        "testimonial-1": {
-          "type": "testimonial",
-          "settings": {
-            "star_rating": 5,
-            "testimonial": "Add customer reviews or press releases to showcase your store's happy customers.",
-            "link": "",
-            "author_name": "Author's name"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial-0",
-        "testimonial-1"
-      ],
-      "disabled": true,
+    "d74bfae5-22a0-48db-88ce-abf6a0ab11d1": {
+      "type": "featured-collection",
       "settings": {
-        "title": "Testimonials",
-        "autoplay": false,
-        "logo_height": 40
+        "title": "Intensive Products",
+        "collection": "beaty-must-have",
+        "grid_show_vendor": false,
+        "products_per_row_int": 4,
+        "product_rows_int": 1,
+        "show_view_all": false
       }
     },
-    "video": {
-      "type": "video",
+    "32eeb96e-ed6a-4b17-90ea-195e7518b8f6": {
+      "type": "rich-text",
       "blocks": {
-        "block-0": {
+        "template--16209095950518__32eeb96e-ed6a-4b17-90ea-195e7518b8f6-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Video",
-            "heading_size": "h2"
+            "heading": ""
           }
         },
-        "block-1": {
+        "template--16209095950518__32eeb96e-ed6a-4b17-90ea-195e7518b8f6-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with a video to draw attention to an important detail of your brand or product line.<\/p>",
-            "enlarge_text": false
+            "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.<\/p>",
+            "text_size": 100
           }
         }
       },
       "block_order": [
-        "block-0",
-        "block-1"
+        "template--16209095950518__32eeb96e-ed6a-4b17-90ea-195e7518b8f6-heading-1",
+        "template--16209095950518__32eeb96e-ed6a-4b17-90ea-195e7518b8f6-text-1"
       ],
-      "disabled": true,
       "settings": {
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "skip_container": false,
-        "tint_color": "#000000",
-        "tint_opacity": 0,
-        "text_box_style": "none",
-        "text_bg_color": "#000000",
-        "text_bg_opacity": 50,
-        "text_color": "#ffffff",
-        "text_position": "center center",
-        "text_below_mobile": false
-      }
-    },
-    "featured-blog": {
-      "type": "featured-blog",
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "blog": ""
+        "text_alignment": "center",
+        "color_scheme": "scheme-1",
+        "color_bg": "#ffffff",
+        "color_heading": "",
+        "color_text": ""
       }
     },
     "45ab7217-b3c6-4300-b79c-b706485031ec": {
@@ -456,12 +386,9 @@
     "9e081925-283b-4db7-b23d-f2dbe649d65a",
     "image-gallery",
     "608471ae-4714-459e-b5f5-5d06f5f68624",
-    "51d03e72-ce45-4623-b511-a19d23301d48",
-    "32eeb96e-ed6a-4b17-90ea-195e7518b8f6",
     "slideshow-with-text",
-    "testimonials",
-    "video",
-    "featured-blog",
+    "d74bfae5-22a0-48db-88ce-abf6a0ab11d1",
+    "32eeb96e-ed6a-4b17-90ea-195e7518b8f6",
     "45ab7217-b3c6-4300-b79c-b706485031ec",
     "b200651b-0938-4faf-8746-4622b138c3e6"
   ]
