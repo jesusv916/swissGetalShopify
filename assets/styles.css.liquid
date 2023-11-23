@@ -6810,14 +6810,13 @@ h3.card__title {
   .banner.banner--bg {
     min-height: calc({{ hero_height_mobile }}px + {{ hero_height_desktop | minus: hero_height_mobile }} * (100vw - 480px) / 1020);
     padding-bottom: 60px;
-    padding-top: -20px;
   }
   .active-banner .banner.banner--bg {
     padding-bottom: calc({{ hero_overlap }}px + 60px);
   }
 
   .header-overlapping .shopify-section:first-child .banner.banner--bg:not(.banner--no-breadcrumbs) {
-    padding-top: calc(var(--header-height) + 70px);
+    /* padding-top: calc(var(--header-height) + 70px); */
   }
 }
 @media (min-width: 1600px) {
