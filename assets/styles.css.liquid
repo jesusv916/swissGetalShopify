@@ -2553,11 +2553,14 @@ tfoot {
   background-color: #E6F4F1;
   list-style: none;
   height: 352px;
+  display: flex;
 }
 
 .invisible-list li:first-child, .invisible-list li:nth-child(2), .invisible-list li:nth-child(3) {
-  margin: 15px;
   border-bottom: 1px solid #D1D1D1;
+}
+.invisible-list li{
+  justify-content: space-between;
 }
 
 .invisible-list a{
