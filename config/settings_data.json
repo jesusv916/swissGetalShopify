@@ -65,6 +65,9 @@
     "search_type": "product",
     "live_search_show_vendor": false,
     "live_search_search_meta": false,
+    "social_twitter_url": "https:\/\/twitter.com\/swissgetalusa",
+    "social_facebook_url": "https:\/\/www.facebook.com\/people\/Swiss-Getal-USA\/100063694116588\/",
+    "social_instagram_url": "https:\/\/www.instagram.com\/swissgetalusa\/?hl=en",
     "enable_transition_in": true,
     "enable_overlay_transition": true,
     "show_currency_code": false,
@@ -155,7 +158,7 @@
           "4e4d3f7e-abee-4bea-a7b7-2a6f660ca7b4"
         ],
         "settings": {
-          "show_newsletter": false,
+          "show_newsletter": true,
           "newsletter_heading": "Subscribe to our newsletter",
           "newsletter_text": "<p>A short sentence describing what someone will receive by subscribing<\/p>",
           "show_social": true,
