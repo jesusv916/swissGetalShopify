@@ -34,21 +34,6 @@
 -%}
 
 <div class="card{% if settings.product_hover_image and product.media.size > 1 %} card--with-hover{% endif %} column {{ col_class }}{% unless product.available %} sold-out{% endunless %}{% if on_sale %} on-sale{% endif %}"{% if animate %} data-cc-animate="cc-fade-in-up" data-cc-animate-delay="{{ animate | times: 0.15 }}s"{% endif %}>
-  <ul class="invisible-list">
-    <li>
-      Nourish and Revitalize Your Skin
-    </li>
-    <li>
-      Intense Hydration
-    </li>
-    <li>
-      Skin elasticity
-      Significantly improved
-    </li>
-    <li>
-      <a href="">Quick Add</a>
-    </li>
-  </ul>
   <div class="card__image">
     {%- if product.featured_media -%}
       {% render 'card-image',
@@ -67,12 +52,26 @@
           class: 'prod-image__hover'
         %}
       {%- endif -%}
+      <ul class="invisible-list">
+        <li>
+          Nourish and Revitalize Your Skin
+        </li>
+        <li>
+          Intense Hydration
+        </li>
+        <li>
+          Skin elasticity
+          Significantly improved
+        </li>
+        <li>
+          <a href="">Quick Add</a>
+        </li>
+      </ul>
     {%- else -%}
       <div class="placeholder-wrapper" style="padding-top: {{ 1 | divided_by: aspect_ratio | times: 100 }}%;">
         {{ 'image' | placeholder_svg_tag: 'placeholder' }}
       </div>
     {%- endif -%}
-
     {%- comment -%} Label {%- endcomment -%}
     {%- if product.available == false and settings.label_soldout_show -%}
       <span class="prod-label sold-out {{ settings.product_label_position }}">{{ 'products.labels.sold_out' | t }}</span>
