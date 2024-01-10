@@ -150,7 +150,7 @@
         "button_text": "learn about skin care",
         "button_link": "",
         "button_style": "feature-link",
-        "text_alignment": "left",
+        "text_alignment": "right",
         "text_center_mobile": false,
         "bg_style": "content",
         "color_scheme": "custom",
